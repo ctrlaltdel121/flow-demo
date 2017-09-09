@@ -77,7 +77,7 @@ describe('when the page loads', () => {
   });
   
   it('it should fail', (done) => {
-    expect(true).to.be.false;
+    should.be.true(false);
     done();
   });
 });
