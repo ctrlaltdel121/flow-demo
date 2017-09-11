@@ -14,5 +14,10 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "environments": {
+    "test": {
+      "env": ["test1"]
+    }
+  }
 }
