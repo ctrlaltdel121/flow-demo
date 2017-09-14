@@ -22,6 +22,9 @@
           "quantity": 4,
           "size": "standard-1x"
         }
+      },
+      "env": {
+        "COLOR": ["blue"]
       }
     }
   }
