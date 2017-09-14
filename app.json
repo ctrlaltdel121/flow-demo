@@ -17,7 +17,12 @@
   ],
   "environments": {
     "test": {
-      "env": ["test1"]
+      "formation": {
+        "test": {
+          "quantity": 4,
+          "size": "standard-1x"
+        }
+      }
     }
   }
 }
